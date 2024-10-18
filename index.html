@@ -42,6 +42,8 @@
         messages.appendChild(item);
         window.scrollTo(0, document.body.scrollHeight);
         socket.auth.serverOffset = serverOffset;
+        console.log('message not received');
+        
     });
     // When connected
     socket.on("connect", () => {
